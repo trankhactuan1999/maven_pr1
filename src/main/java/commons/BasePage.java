@@ -2,6 +2,7 @@ package commons;
 
 import java.util.Date;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -18,6 +19,8 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pageObjects.PageGenerator;
+import pageObjects.ThanhToanOnlinePO;
 import pageUIs.BasePaseUI;
 
 public class BasePage {
@@ -493,7 +496,7 @@ public class BasePage {
 		clickToElement(driver, BasePaseUI.LOGIN_BUTTON_ON_POPUP);
 	}
 
-	public String getTextMessageIncorrectPassword(WebDriver driver) {
+	public String MessageIncorrectPassword(WebDriver driver) {
 		waitForElementVisible(driver, BasePaseUI.MESSAGE_INCORRECT_PASSWORD_TEXT);
 		return getElementText(driver, BasePaseUI.MESSAGE_INCORRECT_PASSWORD_TEXT);
 	}
@@ -512,14 +515,46 @@ public class BasePage {
 		clickToElement(driver, BasePaseUI.BACK_BUTTON);
 	}
 
-	public void clickIfElementIsPresent(WebDriver driver, String locator, int timeoutInSeconds) {
-		try {
-			WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
-			WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
-			element.click();
-		} catch (Exception e) {
-			System.out.println("Quá timeout element không xuất hiện");
+	public void clickIfElemenIsPresent(WebDriver driver,Object locator, int timeout) {
+		By by = locator instanceof By ? (By) locator : By.xpath(locator.toString());
+		long endTime = System.currentTimeMillis() + timeout;
+
+		while (System.currentTimeMillis() < endTime) {
+			try {
+				WebElement e = driver.findElement(by);
+				if (e != null) {
+					e.click();
+					return;
+				}
+			} catch (NoSuchElementException ex) {
+				return;
+			}
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				Thread.currentThread().interrupt();
+			}
 		}
 	}
 
+	public boolean messageHelloIsDisplayed(WebDriver driver) {
+		waitForElementVisible(driver, BasePaseUI.HELLO_TEXT_MESSAGE);
+		return isElementDisplayed(driver, BasePaseUI.HELLO_TEXT_MESSAGE);
+	}
+
+	public void pointToHeaderByName(WebDriver driver, String menuName) {
+		waitForElementVisible(driver, BasePaseUI.DYNAMIC_MENU_BY_NAME, menuName);
+		hoverMouseToElement(driver, BasePaseUI.DYNAMIC_MENU_BY_NAME,menuName);
+	}
+
+	public boolean submenuDisplayedByName(WebDriver driver, String submenuName) {
+		waitForElementVisible(driver, BasePaseUI.DYNAMIC_SUBMENU_BY_NAME, submenuName);
+		return isElementDisplayed(driver, BasePaseUI.DYNAMIC_SUBMENU_BY_NAME,submenuName);
+	}
+
+	public ThanhToanOnlinePO clickToSubmenuByName(WebDriver driver, String submenuName) {
+		waitForElementClickable(driver, BasePaseUI.DYNAMIC_SUBMENU_BY_NAME, submenuName);
+		clickToElement(driver, BasePaseUI.DYNAMIC_SUBMENU_BY_NAME, submenuName);
+		return PageGenerator.getThanhToanOnlinePage(driver);
+	}
 }

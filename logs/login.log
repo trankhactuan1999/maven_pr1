@@ -1,340 +1,480 @@
-2024-08-28 13:21:26,670 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 13:21:30,757 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 13:21:30,913 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 13:21:31,125 INFO  ---------------------- Passed -----------------------
-2024-08-28 13:21:31,216 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 13:21:31,217 INFO  Step 05: Verify message is displayed
-2024-08-28 13:21:31,217 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 13:21:31,223 INFO  OS name = windows 10
-2024-08-28 13:21:31,224 INFO  Driver instance name = chromedriver: chrome on windows (8bff4e35f9141a5e28eb0c6051e5f1c6)
-2024-08-28 14:05:06,637 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 14:05:16,476 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 14:05:16,606 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 14:05:17,004 INFO  ---------------------- Passed -----------------------
-2024-08-28 14:05:17,088 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 14:05:17,269 INFO  Step 05: Verify message is displayed
-2024-08-28 14:05:37,858 INFO  OS name = windows 10
-2024-08-28 14:05:37,859 INFO  Driver instance name = chromedriver: chrome on windows (96b6d337100d5a0421da5f11c4cde1f4)
-2024-08-28 14:08:12,604 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 14:08:16,570 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 14:08:16,714 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 14:08:16,884 INFO  ---------------------- Passed -----------------------
-2024-08-28 14:08:16,976 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 14:08:17,110 INFO  Step 05: Verify message is displayed
-2024-08-28 14:08:37,674 INFO  OS name = windows 10
-2024-08-28 14:08:37,674 INFO  Driver instance name = chromedriver: chrome on windows (98f5fc56f879e062ac54bd6634dfc338)
-2024-08-28 14:11:40,776 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 14:11:44,873 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 14:11:45,015 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 14:11:45,761 INFO  ---------------------- Passed -----------------------
-2024-08-28 14:11:45,856 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 14:11:46,003 INFO  Step 05: Verify message is displayed
-2024-08-28 14:11:46,056 INFO  ---------------------- Passed -----------------------
-2024-08-28 14:11:46,057 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 14:11:46,177 INFO  Step 07: Verify message is displayed
-2024-08-28 14:11:46,228 INFO  ---------------------- Passed -----------------------
-2024-08-28 14:11:46,234 INFO  OS name = windows 10
-2024-08-28 14:11:46,234 INFO  Driver instance name = chromedriver: chrome on windows (7d3b8c0e613903674c90b514727224d6)
-2024-08-28 14:59:22,472 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 14:59:26,957 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 14:59:27,093 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 14:59:27,278 INFO  ---------------------- Passed -----------------------
-2024-08-28 14:59:27,357 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 14:59:47,658 INFO  Step 08: Enter valid phone number
-2024-08-28 15:00:07,890 INFO  OS name = windows 10
-2024-08-28 15:00:07,892 INFO  Driver instance name = chromedriver: chrome on windows (e1dc0cb7721787439e95c2d600e48185)
-2024-08-28 15:00:07,898 INFO  no such window: target window already closed
+2024-08-29 08:56:12,329 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 08:56:16,457 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 08:56:16,601 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 08:56:16,824 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:56:16,916 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 08:56:17,062 INFO  Step 05: Verify message is displayed
+2024-08-29 08:56:17,124 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:56:17,125 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 08:56:17,233 INFO  Step 07: Verify message is displayed
+2024-08-29 08:56:17,280 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:56:17,283 INFO  Step 08: Enter valid phone number
+2024-08-29 08:56:17,404 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 08:56:18,876 INFO  Step 10: Verify message is displayed
+2024-08-29 08:56:18,951 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:56:18,951 INFO  Step 11: Enter invalid password
+2024-08-29 08:56:19,080 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 08:56:24,161 INFO  Step 10: Verify message is displayed
+2024-08-29 08:56:24,213 INFO  ---------------------- Failed -----------------------
+2024-08-29 08:56:29,214 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 08:56:34,326 INFO  OS name = windows 10
+2024-08-29 08:56:34,326 INFO  Driver instance name = chromedriver: chrome on windows (68c049798a3f1e5ce98a87c484dbf59e)
+2024-08-29 08:56:56,161 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 08:57:01,077 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 08:57:01,215 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 08:57:01,398 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:57:01,482 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 08:57:01,619 INFO  Step 05: Verify message is displayed
+2024-08-29 08:57:01,676 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:57:01,676 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 08:57:01,785 INFO  Step 07: Verify message is displayed
+2024-08-29 08:57:01,853 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:57:01,858 INFO  Step 08: Enter valid phone number
+2024-08-29 08:57:01,990 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 08:57:02,463 INFO  Step 10: Verify message is displayed
+2024-08-29 08:57:02,520 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:57:02,521 INFO  Step 11: Enter invalid password
+2024-08-29 08:57:02,654 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 08:57:07,743 INFO  Step 10: Verify message is displayed
+2024-08-29 08:57:07,807 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:57:12,807 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 08:57:17,909 INFO  OS name = windows 10
+2024-08-29 08:57:17,909 INFO  Driver instance name = chromedriver: chrome on windows (66efddd44c56c38cc42797784ca4eed7)
+2024-08-29 08:57:55,094 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 08:57:59,151 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 08:58:04,296 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 08:58:04,360 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:58:04,441 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 08:58:04,569 INFO  Step 05: Verify message is displayed
+2024-08-29 08:58:04,625 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:58:04,625 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 08:58:04,745 INFO  Step 07: Verify message is displayed
+2024-08-29 08:58:04,790 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:58:04,793 INFO  Step 08: Enter valid phone number
+2024-08-29 08:58:04,945 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 08:58:06,066 INFO  OS name = windows 10
+2024-08-29 08:58:06,066 INFO  Driver instance name = chromedriver: chrome on windows (71f511e701c759a83d670e7077a77ec1)
+2024-08-29 08:58:35,160 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 08:58:39,014 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 08:58:44,217 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 08:58:44,250 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:58:44,337 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 08:58:44,477 INFO  Step 05: Verify message is displayed
+2024-08-29 08:58:44,531 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:58:44,531 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 08:58:44,682 INFO  Step 07: Verify message is displayed
+2024-08-29 08:58:44,737 INFO  ---------------------- Passed -----------------------
+2024-08-29 08:58:44,739 INFO  Step 08: Enter valid phone number
+2024-08-29 08:58:44,859 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 08:58:54,971 INFO  OS name = windows 10
+2024-08-29 08:58:54,972 INFO  Driver instance name = chromedriver: chrome on windows (aba3538493a62a6229e30eee8fcb2cbc)
+2024-08-29 09:05:03,350 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 09:05:07,687 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 09:05:09,729 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 09:05:09,766 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:09,857 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 09:05:10,014 INFO  Step 05: Verify message is displayed
+2024-08-29 09:05:10,081 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:10,081 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 09:05:10,195 INFO  Step 07: Verify message is displayed
+2024-08-29 09:05:10,238 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:10,241 INFO  Step 08: Enter valid phone number
+2024-08-29 09:05:10,482 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 09:05:10,577 INFO  Step 10: Verify message is displayed
+2024-08-29 09:05:10,639 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:10,639 INFO  Step 11: Enter invalid password
+2024-08-29 09:05:10,766 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 09:05:10,854 INFO  Step 10: Verify message is displayed
+2024-08-29 09:05:12,549 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:12,549 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 09:05:12,649 INFO  OS name = windows 10
+2024-08-29 09:05:12,649 INFO  Driver instance name = chromedriver: chrome on windows (112e7d56a5a923cbeb47fe6f4e717e3b)
+2024-08-29 09:05:40,897 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 09:05:44,851 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 09:05:48,083 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 09:05:48,119 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:48,198 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 09:05:48,335 INFO  Step 05: Verify message is displayed
+2024-08-29 09:05:48,395 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:48,395 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 09:05:48,509 INFO  Step 07: Verify message is displayed
+2024-08-29 09:05:48,559 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:48,562 INFO  Step 08: Enter valid phone number
+2024-08-29 09:05:48,721 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 09:05:48,818 INFO  Step 10: Verify message is displayed
+2024-08-29 09:05:48,875 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:48,875 INFO  Step 11: Enter invalid password
+2024-08-29 09:05:49,004 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 09:05:49,092 INFO  Step 10: Verify message is displayed
+2024-08-29 09:05:49,889 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:05:49,890 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 09:05:49,999 INFO  OS name = windows 10
+2024-08-29 09:05:50,000 INFO  Driver instance name = chromedriver: chrome on windows (c25491397f114efd49f6914410bf0428)
+2024-08-29 09:17:31,821 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 09:17:35,917 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 09:17:39,110 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 09:17:39,143 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:17:39,217 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 09:17:39,348 INFO  Step 05: Verify message is displayed
+2024-08-29 09:17:39,398 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:17:39,399 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 09:17:39,511 INFO  Step 07: Verify message is displayed
+2024-08-29 09:17:39,567 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:17:39,570 INFO  Step 08: Enter valid phone number
+2024-08-29 09:17:39,689 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 09:17:39,789 INFO  Step 10: Verify message is displayed
+2024-08-29 09:17:39,853 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:17:39,853 INFO  Step 11: Enter invalid password
+2024-08-29 09:17:39,981 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 09:17:40,070 INFO  Step 10: Verify message is displayed
+2024-08-29 09:17:40,771 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:17:40,771 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 09:17:40,869 INFO  Step 15: Enter valid password
+2024-08-29 09:17:40,869 INFO  Step 16: Verify message is displayed
+2024-08-29 09:17:40,871 INFO  OS name = windows 10
+2024-08-29 09:17:40,872 INFO  Driver instance name = chromedriver: chrome on windows (735aa80085aba92d1516e51b359b6565)
+2024-08-29 09:18:04,012 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 09:18:07,818 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 09:18:10,317 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 09:18:10,357 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:18:10,455 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 09:18:10,633 INFO  Step 05: Verify message is displayed
+2024-08-29 09:18:10,683 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:18:10,683 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 09:18:10,795 INFO  Step 07: Verify message is displayed
+2024-08-29 09:18:10,861 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:18:10,866 INFO  Step 08: Enter valid phone number
+2024-08-29 09:18:10,986 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 09:18:11,079 INFO  Step 10: Verify message is displayed
+2024-08-29 09:18:11,136 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:18:11,137 INFO  Step 11: Enter invalid password
+2024-08-29 09:18:11,274 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 09:18:11,356 INFO  Step 10: Verify message is displayed
+2024-08-29 09:18:12,083 INFO  ---------------------- Failed -----------------------
+2024-08-29 09:18:12,083 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 09:18:12,177 INFO  Step 15: Enter valid password
+2024-08-29 09:18:12,177 INFO  Step 16: Verify message is displayed
+2024-08-29 09:18:12,180 INFO  OS name = windows 10
+2024-08-29 09:18:12,180 INFO  Driver instance name = chromedriver: chrome on windows (c84e2f39518a1e582eafe9995d77cf11)
+2024-08-29 09:18:48,309 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 09:18:52,570 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 09:18:54,975 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 09:18:55,013 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:18:55,101 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 09:18:58,275 INFO  Step 05: Verify message is displayed
+2024-08-29 09:18:58,332 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:18:58,332 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 09:18:58,459 INFO  Step 07: Verify message is displayed
+2024-08-29 09:18:58,521 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:18:58,525 INFO  Step 08: Enter valid phone number
+2024-08-29 09:18:58,651 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 09:18:58,745 INFO  Step 10: Verify message is displayed
+2024-08-29 09:18:58,801 INFO  ---------------------- Passed -----------------------
+2024-08-29 09:18:58,802 INFO  Step 11: Enter invalid password
+2024-08-29 09:18:58,926 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 09:18:59,018 INFO  Step 10: Verify message is displayed
+2024-08-29 09:18:59,661 INFO  ---------------------- Failed -----------------------
+2024-08-29 09:18:59,661 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 09:18:59,759 INFO  Step 15: Enter valid password
+2024-08-29 09:18:59,759 INFO  Step 16: Verify message is displayed
+2024-08-29 09:18:59,761 INFO  OS name = windows 10
+2024-08-29 09:18:59,761 INFO  Driver instance name = chromedriver: chrome on windows (38fecc359cf298e9c0397cf08f936605)
+2024-08-29 10:01:16,923 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 10:01:21,353 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 10:01:23,835 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 10:01:23,870 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:01:23,956 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 10:01:24,195 INFO  Step 05: Verify message is displayed
+2024-08-29 10:01:24,264 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:01:24,264 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 10:01:24,378 INFO  Step 07: Verify message is displayed
+2024-08-29 10:01:24,426 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:01:24,429 INFO  Step 08: Enter valid phone number
+2024-08-29 10:01:24,545 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 10:01:24,627 INFO  Step 10: Verify message is displayed
+2024-08-29 10:01:24,724 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:01:24,724 INFO  Step 11: Enter invalid password
+2024-08-29 10:01:24,841 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 10:01:24,941 INFO  Step 10: Verify message is displayed
+2024-08-29 10:01:25,685 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:01:25,685 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 10:01:25,785 INFO  Step 15: Enter valid password
+2024-08-29 10:01:35,983 INFO  OS name = windows 10
+2024-08-29 10:01:35,984 INFO  Driver instance name = chromedriver: chrome on windows (f876280314bf600d2d196b4f8fce7e6e)
+2024-08-29 10:10:07,747 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 10:10:11,785 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 10:10:14,116 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 10:10:14,150 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:10:14,264 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 10:10:14,422 INFO  Step 05: Verify message is displayed
+2024-08-29 10:10:14,513 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:10:14,514 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 10:10:14,694 INFO  Step 07: Verify message is displayed
+2024-08-29 10:10:14,759 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:10:14,762 INFO  Step 08: Enter valid phone number
+2024-08-29 10:10:14,888 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 10:10:14,988 INFO  Step 10: Verify message is displayed
+2024-08-29 10:10:15,046 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:10:15,047 INFO  Step 11: Enter invalid password
+2024-08-29 10:10:15,167 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 10:10:15,258 INFO  Step 10: Verify message is displayed
+2024-08-29 10:10:15,903 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:10:15,903 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 10:10:16,006 INFO  Step 15: Enter valid password
+2024-08-29 10:10:16,158 INFO  Step 16: Click on 'Đăng nhập' button
+2024-08-29 10:10:19,429 INFO  Step 17: Verify message 'Xin chao' is displayed
+2024-08-29 10:10:19,485 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:10:19,487 INFO  OS name = windows 10
+2024-08-29 10:10:19,488 INFO  Driver instance name = chromedriver: chrome on windows (01a9d158d385c6b017b498f1d9309985)
+2024-08-29 10:25:13,096 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 10:25:17,322 INFO  Step 02: Click to 'Đăng nhập' button
+2024-08-29 10:25:19,549 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
+2024-08-29 10:25:19,585 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:25:19,711 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
+2024-08-29 10:25:19,889 INFO  Step 05: Verify message is displayed
+2024-08-29 10:25:19,936 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:25:19,936 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
+2024-08-29 10:25:20,050 INFO  Step 07: Verify message is displayed
+2024-08-29 10:25:20,096 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:25:20,099 INFO  Step 08: Enter valid phone number
+2024-08-29 10:25:20,214 INFO  Step 09: Click on 'Đăng nhập' button without password
+2024-08-29 10:25:20,307 INFO  Step 10: Verify message is displayed
+2024-08-29 10:25:20,362 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:25:20,363 INFO  Step 11: Enter invalid password
+2024-08-29 10:25:20,481 INFO  Step 12: Click on 'Đăng nhập' button
+2024-08-29 10:25:20,570 INFO  Step 10: Verify message is displayed
+2024-08-29 10:25:21,232 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:25:21,233 INFO  Step 14: Click on 'Quay lại' button
+2024-08-29 10:25:21,335 INFO  Step 15: Enter valid password
+2024-08-29 10:25:21,481 INFO  Step 16: Click on 'Đăng nhập' button
+2024-08-29 10:25:24,737 INFO  Step 17: Verify message 'Xin chao' is displayed
+2024-08-29 10:25:24,795 INFO  ---------------------- Passed -----------------------
+2024-08-29 10:25:24,798 INFO  OS name = windows 10
+2024-08-29 10:25:24,798 INFO  Driver instance name = chromedriver: chrome on windows (e8d5361ef1f75b59d1088630ace186f1)
+2024-08-29 15:17:24,133 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 15:17:30,332 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-29 15:17:30,537 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-29 15:17:30,662 INFO  ---------------------- Passed -----------------------
+2024-08-29 15:17:30,662 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-29 15:17:31,135 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-29 15:17:31,186 INFO  ---------------------- Passed -----------------------
+2024-08-29 15:17:31,186 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-29 15:17:51,861 INFO  OS name = windows 10
+2024-08-29 15:17:51,862 INFO  Driver instance name = chromedriver: chrome on windows (1dc9e9897f74a648d4d61b463a7c993a)
+2024-08-29 15:25:23,047 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-29 15:25:27,296 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-29 15:25:27,484 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-29 15:25:27,547 INFO  ---------------------- Passed -----------------------
+2024-08-29 15:25:27,547 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-29 15:25:28,115 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-29 15:25:28,172 INFO  ---------------------- Passed -----------------------
+2024-08-29 15:25:28,172 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-29 15:25:28,273 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-29 15:25:28,384 INFO  ---------------------- Passed -----------------------
+2024-08-29 15:25:28,464 INFO  OS name = windows 10
+2024-08-29 15:25:28,464 INFO  Driver instance name = chromedriver: chrome on windows (c0ee206d0ec7285558bc4652cca3d4e3)
+2024-08-30 10:25:20,790 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:25:25,841 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:25:26,041 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:25:26,200 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:25:26,200 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:25:26,667 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:25:26,719 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:25:26,719 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:25:26,822 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:25:26,932 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:25:27,012 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:25:47,652 INFO  OS name = windows 10
+2024-08-30 10:25:47,653 INFO  Driver instance name = chromedriver: chrome on windows (2a0782f315e7746ce10e462b6176c35d)
+2024-08-30 10:26:39,278 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:26:49,384 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:26:49,568 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:26:49,629 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:26:49,629 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:26:51,219 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:26:51,271 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:26:51,271 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:26:51,380 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:26:51,930 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:26:53,388 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:27:13,964 INFO  OS name = windows 10
+2024-08-30 10:27:13,964 INFO  Driver instance name = chromedriver: chrome on windows (ecf9b1b3a90e9f9d61cdb97f43075f63)
+2024-08-30 10:29:17,376 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:29:21,374 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:29:21,570 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:29:21,643 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:29:21,644 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:29:22,122 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:29:22,174 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:29:22,174 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:29:22,275 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:29:22,389 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:29:24,957 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:29:45,559 INFO  OS name = windows 10
+2024-08-30 10:29:45,559 INFO  Driver instance name = chromedriver: chrome on windows (1e496d7ed94af6f014e71abcd0f57fac)
+2024-08-30 10:29:59,902 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:30:03,231 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:30:03,790 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:30:03,979 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:30:03,980 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:30:04,716 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:30:04,774 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:30:04,775 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:30:04,873 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:30:04,995 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:30:07,237 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:30:27,861 INFO  OS name = windows 10
+2024-08-30 10:30:27,861 INFO  Driver instance name = chromedriver: chrome on windows (689aef4753be09af69988bb45e259794)
+2024-08-30 10:30:35,793 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:30:39,849 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:30:40,049 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:30:40,108 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:30:40,109 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:30:40,574 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:30:40,626 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:30:40,626 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:30:40,717 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:30:40,823 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:30:43,567 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:31:03,682 INFO  OS name = windows 10
+2024-08-30 10:31:03,682 INFO  Driver instance name = chromedriver: chrome on windows (5ba95ba2b435844f36dffcd4edf37031)
+2024-08-30 10:31:03,690 INFO  no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=127.0.6533.120)
+  (Session info: chrome=128.0.6613.85)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-GUA6QTH', ip: '192.168.10.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e1dc0cb7721787439e95c2d600e48185
-2024-08-28 15:01:39,189 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 15:01:43,173 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 15:01:43,312 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 15:01:43,796 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:01:43,889 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 15:01:53,981 INFO  Step 08: Enter valid phone number
-2024-08-28 15:02:04,033 INFO  OS name = windows 10
-2024-08-28 15:02:04,034 INFO  Driver instance name = chromedriver: chrome on windows (b0f200ff59de0c79264d4e8c13499e2e)
-2024-08-28 15:04:40,212 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 15:04:44,360 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 15:04:44,599 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 15:04:44,807 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:04:44,891 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 15:04:45,024 INFO  Step 05: Verify message is displayed
-2024-08-28 15:05:05,587 INFO  Step 08: Enter valid phone number
-2024-08-28 15:05:05,719 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 15:05:05,815 INFO  Step 10: Verify message is displayed
-2024-08-28 15:05:13,949 INFO  OS name = windows 10
-2024-08-28 15:05:13,949 INFO  Driver instance name = chromedriver: chrome on windows (97987e23dfb188339c9e7f603cc08b23)
-2024-08-28 15:05:13,958 INFO  disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=127.0.6533.120)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-GUA6QTH', ip: '192.168.10.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 97987e23dfb188339c9e7f603cc08b23
-2024-08-28 15:29:45,687 INFO  OS name = windows 10
-2024-08-28 15:29:45,690 INFO  Cannot invoke "org.openqa.selenium.WebDriver.toString()" because "this.driver" is null
-2024-08-28 15:29:52,494 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 15:29:56,908 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 15:29:57,045 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 15:29:57,232 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:29:57,311 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 15:29:57,445 INFO  Step 05: Verify message is displayed
-2024-08-28 15:29:57,495 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:29:57,495 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 15:29:57,608 INFO  Step 07: Verify message is displayed
-2024-08-28 15:29:57,655 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:29:57,658 INFO  Step 08: Enter valid phone number
-2024-08-28 15:29:57,821 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 15:29:57,923 INFO  Step 10: Verify message is displayed
-2024-08-28 15:29:57,982 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:29:57,982 INFO  Step 11: Enter invalid password
-2024-08-28 15:29:58,110 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 15:29:58,197 INFO  Step 10: Verify message is displayed
-2024-08-28 15:29:58,957 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:29:58,959 INFO  OS name = windows 10
-2024-08-28 15:29:58,960 INFO  Driver instance name = chromedriver: chrome on windows (a0445d6309541b5bd224710b8ea79122)
-2024-08-28 15:35:31,035 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 15:35:34,984 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 15:35:35,121 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 15:35:35,377 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:35:35,482 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 15:35:35,603 INFO  Step 05: Verify message is displayed
-2024-08-28 15:35:35,650 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:35:35,650 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 15:35:35,765 INFO  Step 07: Verify message is displayed
-2024-08-28 15:35:35,815 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:35:35,818 INFO  Step 08: Enter valid phone number
-2024-08-28 15:35:35,941 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 15:35:36,048 INFO  Step 10: Verify message is displayed
-2024-08-28 15:35:36,120 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:35:36,120 INFO  Step 11: Enter invalid password
-2024-08-28 15:35:36,244 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 15:35:36,330 INFO  Step 10: Verify message is displayed
-2024-08-28 15:35:37,270 INFO  ---------------------- Failed -----------------------
-2024-08-28 15:35:37,270 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 15:35:38,474 INFO  OS name = windows 10
-2024-08-28 15:35:38,475 INFO  Driver instance name = chromedriver: chrome on windows (50f6ed49e5516cc449f7f31f6bb10b81)
-2024-08-28 15:36:39,969 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 15:36:44,193 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 15:36:44,324 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 15:36:44,498 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:36:44,598 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 15:36:44,750 INFO  Step 05: Verify message is displayed
-2024-08-28 15:36:44,800 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:36:44,800 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 15:36:44,958 INFO  Step 07: Verify message is displayed
-2024-08-28 15:36:45,011 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:36:45,014 INFO  Step 08: Enter valid phone number
-2024-08-28 15:36:45,140 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 15:36:45,544 INFO  Step 10: Verify message is displayed
-2024-08-28 15:36:45,604 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:36:45,604 INFO  Step 11: Enter invalid password
-2024-08-28 15:36:45,728 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 15:36:45,819 INFO  Step 10: Verify message is displayed
-2024-08-28 15:36:46,488 INFO  ---------------------- Failed -----------------------
-2024-08-28 15:36:46,488 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 15:36:47,661 INFO  OS name = windows 10
-2024-08-28 15:36:47,661 INFO  Driver instance name = chromedriver: chrome on windows (26d4a4e7959f2d5575285ecb1c8020f6)
-2024-08-28 15:43:52,121 INFO  OS name = windows 10
-2024-08-28 15:43:52,124 INFO  Cannot invoke "org.openqa.selenium.WebDriver.toString()" because "this.driver" is null
-2024-08-28 15:44:02,846 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 15:44:07,006 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 15:44:07,138 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 15:44:07,291 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:44:07,395 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 15:44:07,523 INFO  Step 05: Verify message is displayed
-2024-08-28 15:44:07,570 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:44:07,570 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 15:44:07,686 INFO  Step 07: Verify message is displayed
-2024-08-28 15:44:07,735 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:44:07,738 INFO  Step 08: Enter valid phone number
-2024-08-28 15:44:07,895 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 15:44:07,977 INFO  Step 10: Verify message is displayed
-2024-08-28 15:44:08,027 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:44:08,027 INFO  Step 11: Enter invalid password
-2024-08-28 15:44:08,135 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 15:44:08,215 INFO  Step 10: Verify message is displayed
-2024-08-28 15:44:08,879 INFO  ---------------------- Failed -----------------------
-2024-08-28 15:44:08,880 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 15:44:11,975 INFO  OS name = windows 10
-2024-08-28 15:44:11,975 INFO  Driver instance name = chromedriver: chrome on windows (b8e0eb9aafef9d0bbfd8ce139b50ffdb)
-2024-08-28 15:44:37,960 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 15:44:41,937 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 15:44:42,075 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 15:44:42,255 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:44:42,337 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 15:44:42,481 INFO  Step 05: Verify message is displayed
-2024-08-28 15:44:42,533 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:44:42,533 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 15:44:42,643 INFO  Step 07: Verify message is displayed
-2024-08-28 15:44:42,689 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:44:42,692 INFO  Step 08: Enter valid phone number
-2024-08-28 15:44:42,807 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 15:44:43,246 INFO  Step 10: Verify message is displayed
-2024-08-28 15:44:43,304 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:44:43,304 INFO  Step 11: Enter invalid password
-2024-08-28 15:44:43,439 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 15:44:43,522 INFO  Step 10: Verify message is displayed
-2024-08-28 15:44:45,137 INFO  ---------------------- Failed -----------------------
-2024-08-28 15:44:45,137 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 15:44:46,268 INFO  OS name = windows 10
-2024-08-28 15:44:46,269 INFO  Driver instance name = chromedriver: chrome on windows (81d7fe6860e89a17d07b128ee44c8b1f)
-2024-08-28 15:46:07,598 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 15:46:11,925 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 15:46:12,081 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 15:46:12,235 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:46:12,318 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 15:46:12,456 INFO  Step 05: Verify message is displayed
-2024-08-28 15:46:12,504 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:46:12,505 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 15:46:12,612 INFO  Step 07: Verify message is displayed
-2024-08-28 15:46:12,664 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:46:12,668 INFO  Step 08: Enter valid phone number
-2024-08-28 15:46:12,809 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 15:46:12,913 INFO  Step 10: Verify message is displayed
-2024-08-28 15:46:12,977 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:46:12,977 INFO  Step 11: Enter invalid password
-2024-08-28 15:46:13,102 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 15:46:13,190 INFO  Step 10: Verify message is displayed
-2024-08-28 15:46:13,889 INFO  ---------------------- Passed -----------------------
-2024-08-28 15:46:13,890 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 15:46:15,078 INFO  OS name = windows 10
-2024-08-28 15:46:15,079 INFO  Driver instance name = chromedriver: chrome on windows (4feb093a6e5814644aa026bc7d5586f2)
-2024-08-28 16:29:39,205 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 16:29:43,855 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 16:29:43,988 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 16:29:44,176 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:29:44,262 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 16:29:44,393 INFO  Step 05: Verify message is displayed
-2024-08-28 16:29:44,447 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:29:44,447 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 16:29:44,593 INFO  Step 07: Verify message is displayed
-2024-08-28 16:29:44,641 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:29:44,644 INFO  Step 08: Enter valid phone number
-2024-08-28 16:29:44,768 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 16:29:44,870 INFO  Step 10: Verify message is displayed
-2024-08-28 16:29:44,924 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:29:44,924 INFO  Step 11: Enter invalid password
-2024-08-28 16:29:45,053 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 16:29:45,138 INFO  Step 10: Verify message is displayed
-2024-08-28 16:29:45,853 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:29:45,853 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 16:29:56,127 INFO  OS name = windows 10
-2024-08-28 16:29:56,127 INFO  Driver instance name = chromedriver: chrome on windows (5eea3d463235a7584d8003f9ffe9f83f)
-2024-08-28 16:35:59,458 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 16:36:03,412 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 16:36:03,558 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 16:36:03,776 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:36:03,858 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 16:36:03,991 INFO  Step 05: Verify message is displayed
-2024-08-28 16:36:04,038 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:36:04,039 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 16:36:04,150 INFO  Step 07: Verify message is displayed
-2024-08-28 16:36:04,199 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:36:04,202 INFO  Step 08: Enter valid phone number
-2024-08-28 16:36:04,334 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 16:36:04,430 INFO  Step 10: Verify message is displayed
-2024-08-28 16:36:04,483 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:36:04,483 INFO  Step 11: Enter invalid password
-2024-08-28 16:36:04,595 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 16:36:04,676 INFO  Step 10: Verify message is displayed
-2024-08-28 16:36:05,305 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:36:05,305 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 16:36:15,488 INFO  OS name = windows 10
-2024-08-28 16:36:15,488 INFO  Driver instance name = chromedriver: chrome on windows (829ed3b7635c2b6be0c8f0f99d8ad659)
-2024-08-28 16:42:34,453 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 16:42:38,914 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 16:42:39,058 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 16:42:39,233 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:42:39,325 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 16:42:39,594 INFO  Step 05: Verify message is displayed
-2024-08-28 16:42:39,644 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:42:39,645 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 16:42:39,758 INFO  Step 07: Verify message is displayed
-2024-08-28 16:42:39,809 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:42:39,812 INFO  Step 08: Enter valid phone number
-2024-08-28 16:42:39,945 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 16:42:40,039 INFO  Step 10: Verify message is displayed
-2024-08-28 16:42:40,092 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:42:40,093 INFO  Step 11: Enter invalid password
-2024-08-28 16:42:40,227 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 16:42:40,309 INFO  Step 10: Verify message is displayed
-2024-08-28 16:42:41,027 INFO  ---------------------- Failed -----------------------
-2024-08-28 16:42:41,028 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 16:43:01,266 INFO  OS name = windows 10
-2024-08-28 16:43:01,266 INFO  Driver instance name = chromedriver: chrome on windows (378a9d8abbdd1e587c64c4590a068d7d)
-2024-08-28 16:43:01,272 INFO  no such window: target window already closed
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ba95ba2b435844f36dffcd4edf37031
+2024-08-30 10:31:36,095 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:31:40,233 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:31:40,481 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:32:01,074 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:32:01,081 INFO  OS name = windows 10
+2024-08-30 10:32:01,081 INFO  Driver instance name = chromedriver: chrome on windows (4287cf41ff786baac560895daf0c2fc1)
+2024-08-30 10:32:01,087 INFO  no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=127.0.6533.120)
+  (Session info: chrome=128.0.6613.85)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-GUA6QTH', ip: '192.168.10.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 378a9d8abbdd1e587c64c4590a068d7d
-2024-08-28 16:43:55,900 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 16:43:59,755 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 16:43:59,908 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 16:44:00,064 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:44:00,157 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 16:44:00,293 INFO  Step 05: Verify message is displayed
-2024-08-28 16:44:00,341 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:44:00,342 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 16:44:00,463 INFO  Step 07: Verify message is displayed
-2024-08-28 16:44:00,507 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:44:00,511 INFO  Step 08: Enter valid phone number
-2024-08-28 16:44:00,665 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 16:44:05,752 INFO  Step 10: Verify message is displayed
-2024-08-28 16:44:05,820 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:44:05,820 INFO  Step 11: Enter invalid password
-2024-08-28 16:44:05,929 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 16:44:07,044 INFO  OS name = windows 10
-2024-08-28 16:44:07,045 INFO  Driver instance name = chromedriver: chrome on windows (d4813584077d04201e54f97a8015bff1)
-2024-08-28 16:45:22,413 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 16:45:26,516 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 16:45:26,647 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 16:45:26,800 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:45:26,884 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 16:45:27,013 INFO  Step 05: Verify message is displayed
-2024-08-28 16:45:27,075 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:45:27,075 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 16:45:27,186 INFO  Step 07: Verify message is displayed
-2024-08-28 16:45:27,234 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:45:27,238 INFO  Step 08: Enter valid phone number
-2024-08-28 16:45:27,367 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 16:45:27,489 INFO  Step 10: Verify message is displayed
-2024-08-28 16:45:27,549 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:45:27,549 INFO  Step 11: Enter invalid password
-2024-08-28 16:45:27,680 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 16:45:27,776 INFO  Step 10: Verify message is displayed
-2024-08-28 16:45:28,415 INFO  ---------------------- Failed -----------------------
-2024-08-28 16:45:28,416 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 16:45:28,962 INFO  OS name = windows 10
-2024-08-28 16:45:28,962 INFO  Driver instance name = chromedriver: chrome on windows (7b470a15385b81abe57335fe05958e0f)
-2024-08-28 16:46:25,915 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
-2024-08-28 16:46:29,666 INFO  Step 02: Click to 'Đăng nhập' button
-2024-08-28 16:46:29,809 INFO  Step 03: Verify 'Đăng nhập' popup is displayed
-2024-08-28 16:46:29,964 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:46:30,054 INFO  Step 04: Enter any non-numeric character in the 'Phone Number' field
-2024-08-28 16:46:30,223 INFO  Step 05: Verify message is displayed
-2024-08-28 16:46:30,272 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:46:30,272 INFO  Step 06: Enter < 9 numbers and > 12 numbers in the 'Phone Number' field
-2024-08-28 16:46:30,382 INFO  Step 07: Verify message is displayed
-2024-08-28 16:46:30,433 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:46:30,436 INFO  Step 08: Enter valid phone number
-2024-08-28 16:46:30,687 INFO  Step 09: Click on 'Đăng nhập' button without password
-2024-08-28 16:46:30,775 INFO  Step 10: Verify message is displayed
-2024-08-28 16:46:30,831 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:46:30,831 INFO  Step 11: Enter invalid password
-2024-08-28 16:46:30,952 INFO  Step 12: Click on 'Đăng nhập' button
-2024-08-28 16:46:31,050 INFO  Step 10: Verify message is displayed
-2024-08-28 16:46:32,772 INFO  ---------------------- Passed -----------------------
-2024-08-28 16:46:32,772 INFO  Step 14: Click on 'Quay lại' button
-2024-08-28 16:46:33,894 INFO  OS name = windows 10
-2024-08-28 16:46:33,895 INFO  Driver instance name = chromedriver: chrome on windows (923ba04845f49f8900ade9b9a804e3e5)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54954}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4287cf41ff786baac560895daf0c2fc1
+2024-08-30 10:32:29,260 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:32:33,278 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:32:33,478 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:32:33,543 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:32:33,544 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:32:34,018 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:32:34,083 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:32:34,083 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:32:34,174 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:32:34,302 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:32:36,791 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:32:56,947 INFO  OS name = windows 10
+2024-08-30 10:32:56,948 INFO  Driver instance name = chromedriver: chrome on windows (1c350046226fbb145d51b0224a27e6a0)
+2024-08-30 10:32:56,959 INFO  no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GUA6QTH', ip: '192.168.10.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c350046226fbb145d51b0224a27e6a0
+2024-08-30 10:34:06,563 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:34:10,728 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:34:10,919 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:34:10,975 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:34:10,975 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:34:11,467 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:34:11,517 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:34:11,518 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:34:11,624 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:34:11,778 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:34:14,219 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:34:14,334 INFO  Step 09: Verify validate message is displayed in 'Chọn mệnh giá' field
+2024-08-30 10:34:14,408 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:34:14,408 INFO  Step 10: Verify validate message is displayed in 'SĐT nhận thẻ cào*' field 
+2024-08-30 10:34:34,994 INFO  OS name = windows 10
+2024-08-30 10:34:34,995 INFO  Driver instance name = chromedriver: chrome on windows (5a05fce08ad481e8f73fb25c48c93a99)
+2024-08-30 10:42:15,459 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:42:19,302 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:42:19,528 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:42:19,585 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:42:19,586 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:42:20,211 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:42:20,265 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:42:20,266 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:42:20,362 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:42:20,430 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:42:22,885 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:42:23,050 INFO  Step 09: Verify validate message is displayed in 'Chọn mệnh giá' field
+2024-08-30 10:42:23,104 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:42:23,104 INFO  Step 10: Verify validate message is displayed in 'SĐT nhận thẻ cào*' field 
+2024-08-30 10:42:23,144 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:42:23,144 INFO  Step 11: Enter invalid number in 'SĐT nhận thẻ cào*' field
+2024-08-30 10:42:43,782 INFO  OS name = windows 10
+2024-08-30 10:42:43,782 INFO  Driver instance name = chromedriver: chrome on windows (b79ffec69bd219f0af02488f9ad6d63e)
+2024-08-30 10:45:03,788 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:45:07,889 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:45:08,101 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:45:08,164 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:45:08,164 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:45:08,714 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:45:08,764 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:45:08,764 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:45:09,712 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:45:09,828 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:45:11,540 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:45:11,638 INFO  Step 09: Verify validate message is displayed in 'Chọn mệnh giá' field
+2024-08-30 10:45:11,685 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:45:11,686 INFO  Step 10: Verify validate message is displayed in 'SĐT nhận thẻ cào*' field 
+2024-08-30 10:45:11,731 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:45:11,731 INFO  Step 11: Enter invalid number in 'SĐT nhận thẻ cào*' field
+2024-08-30 10:45:11,849 INFO  Step 12: Click on 'Thanh toán' button
+2024-08-30 10:45:11,930 INFO  Step 13: Verify validate message is displayed
+2024-08-30 10:45:11,974 INFO  ---------------------- Failed -----------------------
+2024-08-30 10:45:11,980 INFO  OS name = windows 10
+2024-08-30 10:45:11,980 INFO  Driver instance name = chromedriver: chrome on windows (66c974498c980aa3acf5960e5803e92a)
+2024-08-30 10:46:44,955 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:46:49,141 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:46:49,340 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:46:49,407 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:46:49,408 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:46:49,862 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:46:49,911 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:46:49,913 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:46:50,003 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:46:50,111 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:46:52,705 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:46:57,833 INFO  Step 09: Verify validate message is displayed in 'Chọn mệnh giá' field
+2024-08-30 10:46:57,923 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:46:57,924 INFO  Step 10: Verify validate message is displayed in 'SĐT nhận thẻ cào*' field 
+2024-08-30 10:46:57,967 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:46:57,968 INFO  Step 11: Enter invalid number in 'SĐT nhận thẻ cào*' field
+2024-08-30 10:46:58,098 INFO  Step 12: Click on 'Thanh toán' button
+2024-08-30 10:47:03,183 INFO  Step 13: Verify validate message is displayed
+2024-08-30 10:47:03,225 INFO  ---------------------- Failed -----------------------
+2024-08-30 10:47:03,231 INFO  OS name = windows 10
+2024-08-30 10:47:03,231 INFO  Driver instance name = chromedriver: chrome on windows (7ce067c34a7e63c492d4de15f4bebf74)
+2024-08-30 10:47:45,483 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-08-30 10:47:49,841 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-08-30 10:47:50,031 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-08-30 10:47:50,089 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:47:50,089 INFO  Step 04: Click to 'Thanh toán Online'
+2024-08-30 10:47:50,635 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-08-30 10:47:50,723 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:47:50,723 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-08-30 10:47:50,838 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-08-30 10:47:50,996 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:47:53,388 INFO  Step 08: Click on 'Thanh toán' button
+2024-08-30 10:47:58,510 INFO  Step 09: Verify validate message is displayed in 'Chọn mệnh giá' field
+2024-08-30 10:47:58,561 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:47:58,561 INFO  Step 10: Verify validate message is displayed in 'SĐT nhận thẻ cào*' field 
+2024-08-30 10:47:58,605 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:47:58,605 INFO  Step 11: Enter invalid number in 'SĐT nhận thẻ cào*' field
+2024-08-30 10:47:58,735 INFO  Step 12: Click on 'Thanh toán' button
+2024-08-30 10:48:03,811 INFO  Step 13: Verify validate message is displayed
+2024-08-30 10:48:03,846 INFO  ---------------------- Passed -----------------------
+2024-08-30 10:48:04,325 INFO  OS name = windows 10
+2024-08-30 10:48:04,325 INFO  Driver instance name = chromedriver: chrome on windows (13a9d5b77d52476f952da035ed59770f)

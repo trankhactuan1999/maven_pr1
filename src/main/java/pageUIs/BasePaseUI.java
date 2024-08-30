@@ -11,6 +11,11 @@ public class BasePaseUI{
     public static final String LOGIN_BUTTON_ON_POPUP = "//button[@type='submit']";
     public static final String BACK_BUTTON = "//div[@class='modal-data']//a";
 
+    public static final String HELLO_TEXT_MESSAGE = "//div[@class='hello']/span//span";
+
+    public static final String DYNAMIC_MENU_BY_NAME = "//a[text()='%s']";
+    public static final String DYNAMIC_SUBMENU_BY_NAME = "//a[text()='My Viettel']/following-sibling::ul//li//a[text()='%s']";
+
 
 
 }

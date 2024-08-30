@@ -46,7 +46,7 @@ public class BaseTest{
 		}else {
 			throw new RuntimeException("Please enter correct browser name!");
 		}
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		return driver;
 	}
