@@ -1,3 +1,5 @@
+package main.vt;
+
 import commons.BaseTest;
 import org.testng.annotations.Test;
 import pageObjects.HomePO;

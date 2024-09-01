@@ -478,3 +478,98 @@ Session ID: 1c350046226fbb145d51b0224a27e6a0
 2024-08-30 10:48:03,846 INFO  ---------------------- Passed -----------------------
 2024-08-30 10:48:04,325 INFO  OS name = windows 10
 2024-08-30 10:48:04,325 INFO  Driver instance name = chromedriver: chrome on windows (13a9d5b77d52476f952da035ed59770f)
+2024-09-01 14:08:06,711 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-09-01 14:08:25,730 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-09-01 14:08:26,086 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-09-01 14:08:26,295 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:08:26,296 INFO  Step 04: Click to 'Thanh toán Online'
+2024-09-01 14:08:28,245 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-09-01 14:08:28,480 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:08:28,481 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-09-01 14:08:28,760 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-09-01 14:08:28,993 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:08:31,140 INFO  Step 08: Click on 'Thanh toán' button
+2024-09-01 14:08:31,662 INFO  Step 09: Verify validate message is displayed in 'Chọn mệnh giá' field
+2024-09-01 14:08:31,806 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:08:31,807 INFO  Step 10: Verify validate message is displayed in 'SĐT nhận thẻ cào*' field 
+2024-09-01 14:08:31,901 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:08:31,902 INFO  Step 11: Enter invalid number in 'SĐT nhận thẻ cào*' field
+2024-09-01 14:08:32,248 INFO  Step 12: Click on 'Thanh toán' button
+2024-09-01 14:08:32,593 INFO  Step 13: Verify validate message is displayed
+2024-09-01 14:08:33,143 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:08:33,156 INFO  OS name = windows 10
+2024-09-01 14:08:33,157 INFO  Driver instance name = chromedriver: chrome on windows (d400c39e7a429c77cc5ed15d4a1a7ffb)
+2024-09-01 14:09:13,690 INFO  Pre-Condition: Step 01: Open Browser: chrome, URL: https://viettel.vn/vx/
+2024-09-01 14:09:21,941 INFO  Step 02: Point to 'My Viettel' tab on header
+2024-09-01 14:09:25,908 INFO  Step 03: Verify 'Thanh toán Online' option is displayed
+2024-09-01 14:09:26,135 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:09:26,136 INFO  Step 04: Click to 'Thanh toán Online'
+2024-09-01 14:09:27,365 INFO  Step 05: Verify Thanh toán Online screen is displayed
+2024-09-01 14:09:27,662 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:09:27,663 INFO  Step 06: Click on 'Mua thẻ cào'
+2024-09-01 14:09:27,902 INFO  Step 07: Verify 'Mua thẻ cào' screen is displayed
+2024-09-01 14:09:28,238 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:09:31,371 INFO  Step 08: Click on 'Thanh toán' button
+2024-09-01 14:09:31,832 INFO  Step 09: Verify validate message is displayed in 'Chọn mệnh giá' field
+2024-09-01 14:09:31,960 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:09:31,960 INFO  Step 10: Verify validate message is displayed in 'SĐT nhận thẻ cào*' field 
+2024-09-01 14:09:32,087 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:09:32,088 INFO  Step 11: Enter invalid number in 'SĐT nhận thẻ cào*' field
+2024-09-01 14:09:32,388 INFO  Step 12: Click on 'Thanh toán' button
+2024-09-01 14:09:32,572 INFO  Step 13: Verify validate message is displayed
+2024-09-01 14:09:32,690 INFO  ---------------------- Passed -----------------------
+2024-09-01 14:09:32,707 INFO  OS name = windows 10
+2024-09-01 14:09:32,708 INFO  Driver instance name = chromedriver: chrome on windows (657839fd13ae34aeea9329eb1e1a86d1)
+2024-09-01 19:00:19,250 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:00:20,864 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:00:21,217 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:00:29,380 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:00:29,457 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:00:33,056 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:00:34,263 INFO  OS name = windows 10
+2024-09-01 19:00:34,264 INFO  Driver instance name = chromedriver: chrome on windows (12e75d37399925329c640b1f3b7ea70e)
+2024-09-01 19:06:44,267 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:06:45,811 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:06:46,350 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:06:52,201 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:06:52,285 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:06:55,791 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:06:57,048 INFO  OS name = windows 10
+2024-09-01 19:06:57,049 INFO  Driver instance name = chromedriver: chrome on windows (9f297962bf4494e5af25984990353511)
+2024-09-01 19:09:46,285 INFO  OS name = windows 10
+2024-09-01 19:09:46,290 INFO  Driver instance name = chromedriver: chrome on windows (551c5d44bccbe6758f9cd7a1b61f1989)
+2024-09-01 19:10:32,484 INFO  OS name = windows 10
+2024-09-01 19:10:32,490 INFO  Driver instance name = chromedriver: chrome on windows (10a90543442833ebb67531340ec665d5)
+2024-09-01 19:11:55,816 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:11:57,393 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:11:57,795 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:12:11,822 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:12:11,916 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:12:16,154 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:12:37,116 INFO  OS name = windows 10
+2024-09-01 19:12:37,117 INFO  Driver instance name = chromedriver: chrome on windows (712ac859aab5f73218c0fc0c4f1e136d)
+2024-09-01 19:13:54,641 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:13:56,596 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:13:57,013 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:14:10,648 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:14:10,720 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:14:14,182 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:14:34,562 INFO  OS name = windows 10
+2024-09-01 19:14:34,567 INFO  Driver instance name = chromedriver: chrome on windows (b098ff856f327965b3f6aa346b064c73)
+2024-09-01 19:15:26,085 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:15:27,422 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:15:27,810 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:15:31,296 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:15:31,364 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:15:34,783 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:15:55,141 INFO  OS name = windows 10
+2024-09-01 19:15:55,142 INFO  Driver instance name = chromedriver: chrome on windows (79561e6d7b26a31127aae190e27d374c)
+2024-09-01 19:18:58,397 INFO  OS name = windows 10
+2024-09-01 19:18:58,403 INFO  Driver instance name = chromedriver: chrome on windows (4a6e55421d140196dab6faef92729299)
+2024-09-01 19:19:29,386 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:19:31,117 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:19:31,490 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:19:36,676 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:19:37,636 INFO  ---------------------- Passed -----------------------
+2024-09-01 19:19:42,246 INFO  OS name = windows 10
+2024-09-01 19:19:42,246 INFO  Driver instance name = chromedriver: chrome on windows (02a492f824b4eb3e714a1bf5560fe6f8)

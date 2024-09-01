@@ -10,6 +10,9 @@ public class PageGenerator {
 	public static ThanhToanOnlinePO getThanhToanOnlinePage(WebDriver driver) {
 		return new ThanhToanOnlinePO(driver);
 	}
-	
+
+	public static ThanhToanPO getThanhToanPO(WebDriver driver) {
+		return new ThanhToanPO(driver);
+	}
 }
 
